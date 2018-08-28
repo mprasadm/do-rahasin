@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listentries">
+        <item>Interact via FLIC</item>
+        <item>Interact via Volume UP/DOWN</item>
+    </string-array>
+    <string-array name="listvalues">
+        <item>flic</item>
+        <item>volume</item>
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="CAMERA">
+        <CheckBoxPreference
+            android:key="PREF_PHOTO"
+            android:title="Enable taking photos"
+            android:summary="Capture photos via defined FLIC or Volume controlers" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="VIDEO">
+        <CheckBoxPreference
+            android:key="PREF_VIDEO"
+            android:title="Enable video recording"
+            android:summary="Record videos via defined FLIC or Volume controlers" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="FLIC/VOLUME">
+        <ListPreference
+            android:key="PREF_ACTION"
+            android:title="Select FLIC or Volume actions"
+            android:summary="Photos/Videos can be captures via FLIC or Volume controlers"
+            android:entries="@array/listentries"
+            android:entryValues="@array/listvalues" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
